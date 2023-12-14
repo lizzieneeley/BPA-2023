@@ -1,68 +1,111 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
-        <link href="https://fonts.cdnfonts.com/css/motlleg-fantasy" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+<html lang="en">
 
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <!-- Bootstrap Icons CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/motlleg-fantasy" rel="stylesheet">
 
-        <!-- Bootstrap JavaScript -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    </head>
-    
-    <!--adding nav bar-->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous">
+
+    <!-- Bootstrap Icons CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
 
 
-    
+</head>
 
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
-                    <span class="sr-only">Toggle Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                <a href="#" class="navbar-brand">
+                    <img id="logo" src="/images.src/Game Day Grill (1).png" alt="Game Day Grill Logo" width="60"
+                        class="d-inline-block align-top" /> Game Day Grill
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+                    aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="/images.src/Game Day Grill.jpg"></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li>
+                        <a class="nav-link mr-2" href="#">Menu</a>
+                    </li>
+                    <li>
+                        <a class="nav-link mr-2" href="#">Online Ordering</a>
+                    </li>
+                    <li>
+                        <a class="nav-link mr-2" href="#">Special Event Listing</a>
+                    </li>
+                    <li>
+                        <a class="nav-link mr-2" href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a class="nav-link mr-2" href="#">Reservation</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
 
+    <!-- Card content -->
     <div id="home">
         <div class="landing-text">
-            <h1>BOOTSTRAP</h1>
-            <h3>Learn the Basic Building blocks.</h3>
-            <a href="#" class="btn btn-default btn-lg">Get Started</a>
+            <h1>GAME DAY GRILL</h1>
+            <h3>Your Ultimate Game Day Destination.</h3>
+            <a href="#" class="btn btn-default btn-lg" id="orderNow">Order Now</a>
         </div>
     </div>
 
+    <div class="padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img
+                        src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/102cf51c-9220-4278-8b63-2b9611ad275e/Derivates/3831dbe2-352e-4409-a2e2-fc87d11cab0a.jpg"
+                        class="img-fluid mission-section" alt="Responsive Image" style="max-width: 200px;">
+                </div>
+                <div class="col-sm-6 text-center mission-section">
+                    <h2>Our Mission</h2>
+                    <p class="lead">I don't really know what to write for the "our mission" section yet
+                        ,so I'm writing this to fill up lines, so that I can see spacing lols.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
         <div class="row g-3">
             <div class="col-md-4 col-6">
-                <div class="card">
-                    <img src="/images.src/Game Day Grill.jpg" class="card-img-top img-fit" alt="Get the App">
+                <div class="card mt-4">
+                    <img src="/images.src/download.jpg" class="card-img-top img-fit" alt="Get the App">
                     <div class="card-body">
                         <h5 class="card-title">Get The App</h5>
                         <p class="card-text">
-                            Game Day Grill has just recently launched it's app which is availible on
-                            IOS and Android. Download the App to order ahead and join our loyalty program. 
-                            Our loyalty program includes points that go towards free items, and a free entre on your
-                            birthday!
+                            Game Day Grill has just recently launched its app, which is available on IOS and Android.
+                            Download the App to order ahead and join our loyalty program. Our loyalty program includes
+                            points that go towards free items, and a free entre on your birthday!
                         </p>
                         <div class="text-end">
                             <a href="#" class="btn btn-outline-primary">Learn More</a>
@@ -72,15 +115,14 @@
             </div>
 
             <div class="col-md-4 col-6">
-                <div class="card">
-                    <img src="/images.src/Game Day Grill.jpg" class="card-img-top img-fit" alt="Get the App">
+                <div class="card mt-4">
+                    <img src="/images.src/flowers.jpg" class="card-img-top img-fit" alt="Get the App">
                     <div class="card-body">
                         <h5 class="card-title">Join the Team</h5>
                         <p class="card-text">
-                            As a small business we are always looking to hire people in our community to
-                             join our team. We offer an amazing staff environment in addition to great pay.  
-                             If you're hard-working, motivated, and have a love for sports
-                             please fill out the application below!
+                            As a small business, we are always looking to hire people in our community to join our
+                            team. We offer an amazing staff environment in addition to great pay. If you're
+                            hard-working, motivated, and have a love for sports, please fill out the application below!
                         </p>
                         <div class="text-end">
                             <a href="#" class="btn btn-outline-primary">Careers</a>
@@ -90,14 +132,14 @@
             </div>
 
             <div class="col-md-4 col-6">
-                <div class="card">
-                    <img src="/images.src/Game Day Grill.jpg" class="card-img-top img-fit" alt="Get the App">
+                <div class="card mt-4">
+                    <img src="/images.src/download.jpg" class="card-img-top img-fit" alt="Get the App">
                     <div class="card-body">
                         <h5 class="card-title">Order Now</h5>
                         <p class="card-text">
-                            With amazing specials, Game Day Grill is the obvious choice for your Game Day meals. We offer delicous
-                            appetizers, mouth-watering burgers, and so much more. Stop in today or 
-                            order online for pickup by clicking the button below. 
+                            With amazing specials, Game Day Grill is the obvious choice for your Game Day meals. We
+                            offer delicious appetizers, mouth-watering burgers, and so much more. Stop in today or
+                            order online for pickup by clicking the button below.
                         </p>
                         <div class="text-end">
                             <a href="#" class="btn btn-outline-primary">Order</a>
@@ -108,5 +150,6 @@
         </div>
     </div>
 
-</html>
+</body>
 
+</html>

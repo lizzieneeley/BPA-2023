@@ -24,5 +24,102 @@
 }
 
 .navbar {
-    background-color: #23451C
+    background-color: #f8e6b8
+}
+
+.logo {
+    width:40px;
+    min-height: 100px;
+    padding: 0 15px 5px;
+}
+
+.nav-link {
+    font-size:15px;
+    text-align:center;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 30px;
+}
+
+.navbar-nav {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px !important;
+}
+
+.navbar-brand {
+    font-size: 30px; 
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #DC143C;
+    padding: 1% 0;
+    font-size: 1.2em;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+#home {
+    background: url(/images.src/burger.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    opacity:.87;
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(222, 0, 0); 
+    border: 1px solid white;
+    border-color: aliceblue;
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.landing-text h3 {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+#orderNow {
+    color: rgb(0, 0, 0);
+    border-color: white;
+    background-color: white;
+}
+
+#orderNow:hover {
+    background-color: #DC143C; /* Change to the desired background color */
+    color: white; /* Change to the desired font color */
+}
+
+
+#orderNow {
+    transition: background-color 0.3s, color 0.3s;
+}
+.mission-section {
+    padding-top: 40px;
 }
