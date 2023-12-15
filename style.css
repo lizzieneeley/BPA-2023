@@ -123,3 +123,19 @@ html, body {
 .mission-section {
     padding-top: 40px;
 }
+
+/* reservation */
+.map-container{
+    display: block;
+    padding: 10px;
+}
+
+.credits{
+    display: block;
+    padding-left: 10px;
+    font-size: smaller;
+}
+
+.info-reservation{
+    text-align: left;
+}
