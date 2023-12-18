@@ -1,4 +1,4 @@
-<
+
 .card .img-fit {
     aspect-ratio: 16 / 9;
     object-fit: cover;
@@ -203,33 +203,27 @@ html, body {
     }
  }
 
-<<<<<<< Updated upstream
-h1{
-    text-align:center;
-}
+ hr{
+    width: 400px;
+    height: 6%;
+    border-top: 5px solid;
+    margin-right: auto;
+    padding-bottom: 0%;
+ }
 
-.types{
-    margin-left: 45px;
-    margin-right: 45px;
-}
+ #content{
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+ }
 
-.mission{
-    margin-top:20px;
-    margin-bottom: 30px;
-    background-color: #5c0000;
-    padding-bottom: 20px;
-    color:#e1e1e1;
-    border-radius: 100px;
-}
+ .contact-desc{
+    font-size: smaller;
+ }
 
-.floats{
-    margin-bottom: 45px;
-}
-
-.events{
-    text-align: left;
-}
-=======
+ .div2 {
+    width: 400px;
+    height: 800px; 
+ }
 
 
->>>>>>> Stashed changes
