@@ -126,7 +126,10 @@ html, body {
 
 
 
-
+.reservation {
+    display: inline-flex;
+    padding-left:110px;
+}
 
 
 
