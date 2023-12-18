@@ -1,3 +1,4 @@
+<
 .card .img-fit {
     aspect-ratio: 16 / 9;
     object-fit: cover;
@@ -51,9 +52,21 @@
     margin: 0 10px !important;
 }
 
-.navbar-brand {
-    font-size: 30px; 
+
+.brandName{
+    font-size: 34px; 
     color: white;
+    font-family: 'Afacad', sans-serif;
+    margin-left: 20px;
+}
+
+.active{
+    text-decoration: none;
+}
+
+.selling{
+    font-family: 'DM Serif Display', serif;
+    margin-top: 17px;
 }
 
 html, body {
@@ -62,13 +75,21 @@ html, body {
 }
 
 .navbar {
-    background-color: #DC143C;
+    background-color: rgb(173, 11, 11);
     padding: 1% 0;
     font-size: 1.2em;
 }
 
 .navbar-nav .nav-link {
+    
     color: white;
+    font-family: 'Afacad', sans-serif;
+}
+
+.navbar-nav .nav-link:hover {
+    font-size: medium;
+    text-shadow: 2px 2px 4px #000000;
+    
 }
 
 #home {
@@ -94,7 +115,9 @@ html, body {
 }
 
 .landing-text h1 {
-    font-size: 500%;
+    font-family: 'Chakra Petch', sans-serif;
+
+    font-size: 650%;
     font-weight: 700;
     color: white;
     text-shadow: 2px 2px 4px black;
@@ -109,10 +132,11 @@ html, body {
     color: rgb(0, 0, 0);
     border-color: white;
     background-color: white;
+    box-shadow: 2px 2px 4px black;
 }
 
 #orderNow:hover {
-    background-color: #DC143C; /* Change to the desired background color */
+    background-color: #5c0000; /* Change to the desired background color */
     color: white; /* Change to the desired font color */
 }
 
@@ -124,8 +148,6 @@ html, body {
     padding-top: 40px;
 }
 
-<<<<<<< Updated upstream
-=======
 
 
 
@@ -139,7 +161,6 @@ html, body {
 
 
 
->>>>>>> Stashed changes
 .carousel-control-prev,
 .carousel-control-next {
   background-color: #e1e1e1;
@@ -182,8 +203,28 @@ html, body {
     }
  }
 
-<<<<<<< Updated upstream
- .
-=======
+h1{
+    text-align:center;
+}
 
->>>>>>> Stashed changes
+.types{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.mission{
+    margin-top:20px;
+    margin-bottom: 30px;
+    background-color: #5c0000;
+    padding-bottom: 20px;
+    color:#e1e1e1;
+    border-radius: 100px;
+}
+
+.floats{
+    margin-bottom: 45px;
+}
+
+.events{
+    text-align: left;
+}

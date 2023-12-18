@@ -4,8 +4,7 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/motlleg-fantasy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Afacad&family=Chakra+Petch:wght@600&family=DM+Mono&family=DM+Serif+Display&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -38,8 +37,9 @@
             <div class="navbar-header">
                 <a href="#" class="navbar-brand">
                     <img id="logo" src="/images.src/Asset 11@4x.png" alt="Game Day Grill Logo" width="60"
-                        class="d-inline-block align-top" /> Game Day Grill
+                        class="d-inline-block align-top" />
                 </a>
+                <a class="active brandName" href="/home.html">Game Day Grill</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
                     aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -49,13 +49,13 @@
             <div class="collapse navbar-collapse" id="toggleMobileMenu">
                 <ul class="navbar-nav ms-auto">
                     <li>
-                        <a class="nav-link mr-2" href="#">Menu</a>
+                        <a class="nav-link mr-2" href="/menu.html">Menu</a>
                     </li>
                     <li>
-                        <a class="nav-link mr-2" href="#">Online Ordering</a>
+                        <a class="nav-link mr-2" href="/onlineOrdering.html">Online Ordering</a>
                     </li>
                     <li>
-                        <a class="nav-link mr-2" href="#">Contact</a>
+                        <a class="nav-link mr-2" href="/contact.html">Contact</a>
                     </li>
                     <li>
                         <a class="nav-link mr-2" href="reservation.html">Reservation</a>
@@ -70,11 +70,11 @@
         <div class="landing-text">
             <h1>GAME DAY GRILL</h1>
             <h3>Your Ultimate Game Day Destination.</h3>
-            <a href="#" class="btn btn-default btn-lg" id="orderNow">Order Now</a>
+            <a href="/onlineOrdering.html" class="btn btn-default btn-lg" id="orderNow">Order Now</a>
         </div>
     </div>
     
-    <h1>Sides Grilled Sandwiches Drinks</h1>
+    <h1 class="selling">Sides <span class="types">Sandwiches</span>  Drinks</h1>
     <!--Carousel-->
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -173,9 +173,30 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+    
+    <!-- Upcoming Events -->
+    <div class="mission rounded-2">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-sm-8 text-center mission-section events">
+                    <h2 class="events">Upcoming Events</h2>
+                    <p class="lead events">I don't really know what to write for the "our mission" section yet
+                        ,so I'm writing this to fill up lines, so that I can see spacing lols. I don't really know what to write for the "our mission" section yet
+                        ,so I'm writing this to fill up lines, so that I can see spacing lols.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <img
+                        src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/102cf51c-9220-4278-8b63-2b9611ad275e/Derivates/3831dbe2-352e-4409-a2e2-fc87d11cab0a.jpg"
+                        class="img-fluid mission-section" alt="Responsive Image" style="max-width: 200px;">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Cards -->
-    <div class="container">
+    <div class="container floats">
         <div class="row g-3">
             <div class="col-md-4 col-6">
                 <div class="card mt-4">
@@ -229,9 +250,9 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Our Mission Area -->
-    <div class="padding">
+    <div class="padding mission rounded-3">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -248,6 +269,8 @@
             </div>
         </div>
     </div>
+    
+    
 
 </body>
 
