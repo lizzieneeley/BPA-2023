@@ -124,22 +124,6 @@ html, body {
     padding-top: 40px;
 }
 
-
-
-.reservation {
-    display: inline-flex;
-    padding-left:110px;
-}
-
-
-
-
-
-
-
-
-
-
 .carousel-control-prev,
 .carousel-control-next {
   background-color: #e1e1e1;
@@ -177,4 +161,8 @@ html, body {
     }
  }
 
+<<<<<<< Updated upstream
  .
+=======
+
+>>>>>>> Stashed changes
