@@ -1,13 +1,19 @@
 <
 .card .img-fit {
-    aspect-ratio: 16 / 9;
     object-fit: cover;
+    aspect-ratio: 16 / 9;
 }
 
-.card {
-    height: 100%;
+@media (max-width: 767.98px) {
+    .card .img-fit {
+        aspect-ratio: 1.45 / 1;
+    }
 }
 
+.carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+}
 .card-body {
     display: flex;
     height: 100%;
@@ -15,13 +21,12 @@
 }
 
 .card-text {
-    flex-grow: 1;
+    flex-grow: 3;
 }
 
-@media (max-width: 767.98px){
-    .card .img-fit {
-        aspect-ratio: 1.45 / 1;
-    }
+.pics {
+    max-width: 200%;
+    max-height: 200%;
 }
 
 
@@ -201,7 +206,6 @@ html, body {
     }
  }
 
-<<<<<<< Updated upstream
 h1{
     text-align:center;
 }
@@ -227,7 +231,9 @@ h1{
 .events{
     text-align: left;
 }
-=======
 
-
->>>>>>> Stashed changes
+.navbar-nav .nav-link:hover {
+    font-size: medium;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
