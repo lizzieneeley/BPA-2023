@@ -28,7 +28,7 @@
 }
 
 .selling a:link {
-    color: rgb(0, 0, 0);
+    color: rgb(187, 104, 104);
     text-decoration: none;
 }
 
@@ -38,12 +38,30 @@
 
 .selling a:hover {
     color:#8a4040; 
-    font-size: larger;
+    font-size: ;
 }
 
 .selling a:active {
     color:#5c0000; /* Color for active links (when clicked) */
 }
+
+.selling {
+    margin-top: 2%;
+}
+
+
+.btn-outline-primary {
+    border-color: #5c0000;
+    color: #5c0000; /* Optional: Change text color on hover */
+  }
+
+.btn-outline-primary:hover {
+    background-color: #5c0000;
+    border-color: #5c0000;
+    color: #fff; /* Optional: Change text color on hover */
+  }
+
+  
 
 @media (max-width: 767.98px) {
     .card .img-fit {

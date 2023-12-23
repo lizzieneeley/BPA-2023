@@ -74,38 +74,82 @@
         </div>
     </div>
     
-    <h1 class="selling">
-        <span>
-            <a href="#sides">Sides</a>
-        </span> 
-        <span class="types">
-            <a href="#sandwiches">Sandwiches</a>
-        </span>  
-        <span>
-            <a href="#drinks"> Drinks</a>
-        </span></h1>
 
     <!--Carousel-->
-    <div class="contianer">
-        <div class="row g-3">
-            <div class="col-sm-4 col-6" id="sides">
-                <dic class="card">
-                    <img src="/images.src/negative-space-truffel-fries-1536x1024.jpg" class="card-img-top img-fit" alt="Truffle Fries">
+    <h1 class="selling">
+        <span>
+            <a href="#sides" onclick="showElement('sidesCarousel')">Sides</a>
+        </span> 
+        <span class="types">
+            <a href="#sandwiches" onclick="showElement('sandwichesCarousel')">Sandwiches</a>
+        </span>  
+        <span>
+            <a href="#drinks" onclick="showElement('drinksCarousel')">Drinks</a>
+        </span>
+    </h1>
+    
+    <!-- Carousel -->
+    <div id="cardCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+    
+        <!-- Card 1 -->
+        <div class="carousel-item active" id="sidesCarousel">
+          <div class="container">
+            <div class="row g-3">
+              <div class="col-sm-4 col-6">
+                <div class="card">
+                    <img src="/images.src/Fried-Pickle-Spears-square.jpg" class="card-img-top img-fit" alt="Fried Pickle Spears">
                     <div class="card-body">
-                        <h5 class="card-title">Truffle Fries</h5>
+                        <h5 class="card-title">Fried Pickle Spears</h5>
                         <p class="card-text">
-                            Stop in to try our always fresh french fries. Get them plain or try our new loaded fries that come with
-                            truffle, bacon, cheese, and cilantro!
+                            Try our locally grown fried pickle spears. This side comes with a side of ranch and 8 spears.
                         </p> 
                         <div class="text-end">
                             <a href="/onlineOrdering.html" class="btn btn-outline-primary">Order Now</a>
                         </div>                 
                     </div>
-                </dic>
+                </div> 
+              </div>
+              <div class="col-sm-4 col-6">
+                <div class="card">
+                  <img src="/images.src/negative-space-truffel-fries-1536x1024.jpg" class="card-img-top img-fit" alt="Truffle Fries">
+                  <div class="card-body">
+                    <h5 class="card-title">Truffle Fries</h5>
+                    <p class="card-text">
+                      Stop in to try our always fresh french fries. Get them plain or try our new loaded fries that come with
+                            truffle, bacon, cheese, and cilantro!
+                    </p>
+                    <div class="text-end">
+                      <a href="/onlineOrdering.html" class="btn btn-outline-primary">Order Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-6">
+                <div class="card">
+                  <img src="/images.src/5d2c9c3c21a86102d00a0718 (1).webp" class="card-img-top img-fit" alt="Bloomin Onion">
+                  <div class="card-body">
+                    <h5 class="card-title">Bloomin Onion</h5>
+                    <p class="card-text">
+                      As one of our bigger sides here at Game Day Grill, this onion is able to feed up to 
+                      4 people, and comes with a side of our signature sauce!
+                    </p>
+                    <div class="text-end">
+                      <a href="/onlineOrdering.html" class="btn btn-outline-primary">Order Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-
-            <div class="col-sm-4 col-6" id="sandwiches">
-                <dic class="card">
+          </div>
+        </div>
+    
+        <!-- Card 2 -->
+        <div class="carousel-item" id="sandwichesCarousel">
+          <div class="container">
+            <div class="row g-3">
+              <div class="col-sm-4 col-6">
+                <div class="card">
                     <img src="/images.src/Smoked-Chicken-Wings-iowagirleats-01.jpg" class="card-img-top img-fit" alt="Chicken Wings">
                     <div class="card-body">
                         <h5 class="card-title">Chicken Wings</h5>
@@ -117,11 +161,19 @@
                             <a href="/onlineOrdering.html" class="btn btn-outline-primary">Order Now</a>
                         </div>                 
                     </div>
-                </dic>
+                </div>
+              </div>
+              <!-- Add more cards as needed -->
             </div>
-
-            <div class="col-sm-4 col-6" id="drinks">
-                <dic class="card">
+          </div>
+        </div>
+    
+        <!-- Card 3 -->
+        <div class="carousel-item" id="drinksCarousel">
+          <div class="container">
+            <div class="row g-3">
+              <div class="col-sm-4 col-6">
+                <div class="card">
                     <img src="/images.src/strawberry-margarita-8.jpg" class="card-img-top img-fit" alt="Strawberry Margarita">
                     <div class="card-body">
                         <h5 class="card-title">Game Day Margarita</h5>
@@ -134,10 +186,45 @@
                             <a href="/onlineOrdering.html" class="btn btn-outline-primary">Order Now</a>
                         </div>                 
                     </div>
-                </dic>
+                </div>
+              </div>
+              <!-- Add more cards as needed -->
             </div>
+          </div>
         </div>
+    
+        <!-- Add more carousel items as needed -->
+    
+      </div>
+    
+      <!-- Add carousel controls if you want -->
+      <a class="carousel-control-prev" href="#cardCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+      <a class="carousel-control-next" href="#cardCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
     </div>
+    
+    <script>
+        function showElement(elementId) {
+          // Hide all carousel items
+          hideAllCarouselItems();
+          
+          // Show the selected carousel item
+          document.getElementById(elementId).classList.add('active');
+        }
+      
+        function hideAllCarouselItems() {
+          // Remove 'active' class from all carousel items
+          var carouselItems = document.querySelectorAll('.carousel-item');
+          carouselItems.forEach(function(item) {
+            item.classList.remove('active');
+          });
+        }
+    </script>
 
     
     <!-- Upcoming Events -->
@@ -166,7 +253,7 @@
         <div class="row g-3">
             <div class="col-md-4 col-6">
                 <div class="card mt-4">
-                    <img src="/images.src/download.jpg" class="card-img-top img-fit" alt="Get the App">
+                    <img src="/images.src/Asset 11@4x.png" class="card-img-top img-fit" alt="Get the App">
                     <div class="card-body">
                         <h5 class="card-title">Get The App</h5>
                         <p class="card-text">
@@ -183,7 +270,7 @@
 
             <div class="col-md-4 col-6">
                 <div class="card mt-4">
-                    <img src="/images.src/flowers.jpg" class="card-img-top img-fit" alt="Get the App">
+                    <img src="/images.src/work-in-a-restaurant-what-to-expect.jpg" class="card-img-top img-fit" alt="Get the App">
                     <div class="card-body">
                         <h5 class="card-title">Join the Team</h5>
                         <p class="card-text">
@@ -200,7 +287,7 @@
 
             <div class="col-md-4 col-6">
                 <div class="card mt-4">
-                    <img src="/images.src/download.jpg" class="card-img-top img-fit" alt="Get the App">
+                    <img src="/images.src/burger.jpg" class="card-img-top img-fit" alt="Get the App">
                     <div class="card-body">
                         <h5 class="card-title">Order Now</h5>
                         <p class="card-text">
@@ -256,8 +343,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <img
-                        src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/102cf51c-9220-4278-8b63-2b9611ad275e/Derivates/3831dbe2-352e-4409-a2e2-fc87d11cab0a.jpg"
+                    <img src="/images.src/mission.jpg"
                         class="img-fluid mission-section" alt="Responsive Image" style="max-width: 200px;">
                 </div>
                 <div class="col-sm-6 text-center mission-section">
