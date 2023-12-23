@@ -1,7 +1,48 @@
-<
+/* card styling */
 .card .img-fit {
     object-fit: cover;
     aspect-ratio: 16 / 9;
+}
+
+.card { 
+    height: 100%;
+    border-color: rgb(157, 157, 157);
+    margin-left: 20px;
+    box-shadow:  0px 2px 4px #636363;
+}
+
+.card-body{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.card-text {
+    flex-grow: 1;
+}
+
+.selling{
+    font-family: 'DM Serif Display', serif;
+    margin-top: 17px;
+    text-align: center;
+}
+
+.selling a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.selling a:visited {
+    color: black; 
+}
+
+.selling a:hover {
+    color:#8a4040; 
+    font-size: larger;
+}
+
+.selling a:active {
+    color:#5c0000; /* Color for active links (when clicked) */
 }
 
 @media (max-width: 767.98px) {
@@ -10,26 +51,11 @@
     }
 }
 
-.carousel-inner {
-    display: flex;
-    flex-wrap: nowrap;
-}
-.card-body {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-}
-
-.card-text {
-    flex-grow: 3;
-}
-
-.pics {
-    max-width: 200%;
-    max-height: 200%;
-}
 
 
+
+
+/* nav bar styline */
 .logo {
     width:40px;
     min-height: 100px;
@@ -71,14 +97,9 @@
     text-decoration: none;
 }
 
-.selling{
-    font-family: 'DM Serif Display', serif;
-    margin-top: 17px;
-}
 
-.selling{
-    text-align: center;
-}
+
+
 html, body {
     height: 100%;
     width: 100%;
@@ -111,11 +132,19 @@ html, body {
     border-color: aliceblue;
 }
 
+.navbar-nav .nav-link:hover {
+    font-size: medium;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+
+/* landing page and image styling */
 .landing-text {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
 }
+
 
 .landing-text h1 {
     font-family: 'Chakra Petch', sans-serif;
@@ -151,60 +180,10 @@ html, body {
     padding-top: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.carousel-control-prev,
-.carousel-control-next {
-  background-color: #e1e1e1;
-  width: 5vh;
-  height: 5vh;
-  border-radius: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.cards-wrapper {
-    display: flex;
-    justify-content: center;
-  }
-  .card img {
-    max-width: 50;
-    max-height: 100%;
-  }
-  .card {
-    margin: 0 0.5em;
-    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-    border: none;
-    border-radius: 0;
-  }
-  .carousel-inner {
-    padding: 1em;
-  }
-
-.card-img{
-    
-}
-
 .reservation {
     display: inline-flex;
     padding-left:110px;
 }
-
-@media (min-width: 750px) {
-    .card img {
-      height: 11em;
-    }
- }
 
 h1{
     text-align:center;
@@ -258,8 +237,4 @@ h1{
     }
 =======
 
-.navbar-nav .nav-link:hover {
-    font-size: medium;
-    text-shadow: 2px 2px 4px #000000;
-    
-}
+
