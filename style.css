@@ -347,6 +347,13 @@ p {
     background-color: #5c0000;
 }
 
+#subscribeButton {
+    background-color: rgb(0, 0, 0);
+    border-color: #5c0000;
+    border-width: 20%;
+    color: #ffffff;
+}
+
 .asterik {
     color: #ff0303;
 }
