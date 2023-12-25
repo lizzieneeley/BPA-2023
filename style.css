@@ -343,6 +343,14 @@ p {
       margin-left: 50px; /* Add top margin */
 }
 
+#submitButton {
+    background-color: #5c0000;
+}
+
+.asterik {
+    color: #ff0303;
+}
+
 .map-container iframe {
     position: absolute;
     top: 0;

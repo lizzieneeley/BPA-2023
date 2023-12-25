@@ -65,13 +65,10 @@
   </nav>
   <div class="container mx-auto message">
     <div class="row">
-        <!-- Centered Title (col-md-12 takes up 12 columns on medium-sized screens and larger) -->
         <div class="col-md-12 text-center">
             <h2 class="contactUs">Send Us A Message! <hr>
             </h2>
         </div>
-
-        <!-- Text in the center (col-md-8 takes up 8 columns on medium-sized screens and larger) -->
         <div class="col-md-8 mx-auto">
             <p class="actualMessage">
               We love hearing from our guests. Leave us a message below for general inquiries and we'll be in touch as soon as possible! Please click here if you are
@@ -81,19 +78,46 @@
     </div>
 </div>
 <div id="content" class="row">
-    <!-- Left Column (col-md-4 takes up 4 columns on medium-sized screens and larger) -->
     <div class="col-md-4">
-        <div class="div2">
-            <h3 class="contact-desc">First name*</h3><input type="text">
-            <h3 class="contact-desc">Last Name</h3><input type="text">
-            <h3 class="contact-desc">Email*</h3><input type="text">
-            <h3 class="contact-desc">Phone</h3><input type="text">
-            <h3 class="contact-desc">ZIP Code</h3><input type="text">
-            <button type="button" class="btn btn-secondary">Submit</button>
-        </div>
-    </div>
+      <div class="div2">
+          <form id="contactForm">
+              <h3 class="contact-desc">First name<span class="asterik">*</span></h3><input type="text" id="firstName">
+              <h3 class="contact-desc">Last Name<span class="asterik">*</span></h3><input type="text" id="lastName">
+              <h3 class="contact-desc">Email<span class="asterik">*</span></h3><input type="text" id="email">
+              <h3 class="contact-desc">Phone<span class="asterik">*</span></h3><input type="text" id="phone">
+              <h3 class="contact-desc">Message<span class="asterik">*</span></h3><input type="text" id="zipCode">
+              <button type="button" id="submitButton" class="btn btn-secondary" onclick="submitForm()">Submit</button>
+          </form>
+      </div>
+  </div>
+  
+  <script>
+      function submitForm() {
+          var firstName = document.getElementById("firstName").value;
+          var lastName = document.getElementById("lastName").value;
+          var email = document.getElementById("email").value;
+          var phone = document.getElementById("phone").value;
+          var zipCode = document.getElementById("message").value;
+  
+          if (firstName && lastName && email && phone && message) {
+              document.getElementById("submitButton").classList.remove("btn-secondary");
+              document.getElementById("submitButton").classList.add("btn-primary");
+              clearForm();
+  
+          } else {
+              alert("Please fill in all fields.");
+          }
+      }
+      
+      function clearForm() {
+          document.getElementById("contactForm").reset();
+          document.getElementById("submitButton").classList.remove("btn-primary");
+          document.getElementById("submitButton").classList.add("btn-secondary");
+      }
+  </script>
 
-    <!-- Middle Column (col-md-4 takes up 4 columns on medium-sized screens and larger) -->
+
+
     <div class="col-md-4 address">
         <h2>Contact Details</h2>
         <h4>Address</h4>
@@ -104,7 +128,6 @@
         <a href="mailto:someone@example.com">contact@gamedaygrill.com</a>
     </div>
 
-    <!-- Right Column (col-md-4 takes up 4 columns on medium-sized screens and larger) -->
     <div class="col-md-4">
       <div class="map-container mx-auto" style="height: 300px;">
           <iframe
