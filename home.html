@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad&family=Chakra+Petch:wght@600&family=Yantramanav:wght@300&display=swap&family=Nanum+Gothic&family=DM+Mono&family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous">
+
+    <!-- Bootstrap Icons CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">
+                    <img id="logo" src="/images.src/Asset 11@4x.png" alt="Game Day Grill Logo" width="60"
+                        class="d-inline-block align-top" />
+                </a>
+                <a class="activeA brandName" href="/home.html">Game Day Grill</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+                    aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li>
+                        <a class="nav-link mr-2" href="/menu.html">Menu</a>
+                    </li>
+                    <li>
+                        <a class="nav-link mr-2" href="/onlineOrdering.html">Online Order</a>
+                    </li>
+                    <li>
+                        <a class="nav-link mr-2" href="/contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a class="nav-link mr-2" href="/reservation.html">Reservation</a>
+                    </li>
+                    <li>
+                        <a class="nav-link mr-2" href="/specialEvent.html">Special Events</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Landing Image Text -->
+    <div id="home">
+        <div class="landing-text">
+            <h1>GAME DAY GRILL</h1>
+            <h3>Your Ultimate Game Day Destination.</h3>
+            <a href="/onlineOrdering.html" class="btn btn-default btn-lg gameDay" id="orderNow">Order Now</a>
+        </div>
+    </div>
+    
+
+    <!--Carousel-->
+    <h1 class="selling">
+        <span>
+            <a href="#sides" onclick="showElement('sidesCarousel')">Sides</a>
+        </span> 
+        <span class="types">
+            <a href="#sandwiches" onclick="showElement('sandwichesCarousel')">Sandwiches</a>
+        </span>  
+        <span>
+            <a href="#drinks" onclick="showElement('drinksCarousel')">Drinks</a>
+        </span>
+    </h1>
+    
+    
+    <!-- Carousel -->
+    <div id="cardCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+    
+        <!-- Card 1 -->
+        <div class="carousel-item active" id="sidesCarousel">
+          <div class="container">
+            <div class="row g-3">
+              <div class="col-sm-4 col-6">
+                <div class="card">
+                    <img src="/images.src/Fried-Pickle-Spears-square.jpg" class="card-img-top img-fit" alt="Fried Pickle Spears">
+                    <div class="card-body">
+                        <h5 class="card-title">Fried Pickle Spears</h5>
+                        <p class="card-text">
+                            Try our locally grown fried pickle spears. This side comes with a side of ranch and 8 spears.
+                        </p> 
+                        <div class="text-end">
+                            <a href="/onlineOrdering.html" class="btn btn-outline-primary">Order Now</a>
+                        </div>                 
+                    </div>
+                </div> 
+              </div>
+              <div class="col-sm-4 col-6">
+                <div class="card">
+                  <img src="/images.src/negative-space-truffel-fries-1536x1024.jpg" class="card-img-top img-fit" alt="Truffle Fries">
+                  <div class="card-body">
+                    <h5 class="card-title">Truffle Fries</h5>
+                    <p class="card-text">
+                      Stop in to try our always fresh french fries. Get them plain or try our new loaded fries that come with
+                            truffle, bacon, cheese, and cilantro!
+                    </p>
+                    <div class="text-end">
+                      <a href="/onlineOrdering.html" class="btn btn-outline-primary">Order Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-6">
+                <div class="card">
+                  <img src="/images.src/5d2c9c3c21a86102d00a0718 (1).webp" class="card-img-top img-fit" alt="Bloomin Onion">
+                  <div class="card-body">
+                    <h5 class="card-title">Bloomin Onion</h5>
+                    <p class="card-text">
+                      As one of our bigger sides here at Game Day Grill, this onion is able to feed up to 
+                      4 people, and comes with a side of our signature sauce!
+                    </p>
+                    <div class="text-end">
+                      <a href="/onlineOrdering.html" class="btn btn-outline-primary">Order Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 2 -->
+        <div class="carousel-item" id="sandwichesCarousel">
+          <div class="container">
+            <div class="row g-3">
+              <div class="col-sm-4 col-6">
+                <div class="card">
+                    <img src="/images.src/blackbeanburger.jpg" class="card-img-top img-fit" alt="Black Bean Burger">
+                    <div class="card-body">
+                        <h5 class="card-title">Black Bean Sandwich</h5>
+                        <p class="card-text">
+                            This vegan friendly sandwich is served with a black bean patty and vegan cheese.
+                            The bun is toasted with sesame and garnished with an assortment of vegetables and house sauce.
+                        </p> 
+                        <div class="text-end">
+                            <a href="/onlineOrdering.html" class="btn btn-outline-primary">Order Now</a>
+                        </div>                 
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-6">
+                <div class="card">
+                  <img src="/images.src/redhot_spicy_chicken_sandwich38649 copy.jpg" class="card-img-top img-fit" alt="Nashville Chicken Sandwich">
+                  <div class="card-body">
+                    <h5 class="card-title">Nashville Hot Chicken Sandwich</h5>
+                    <p class="card-text">
+                      The delicous sandwich is covered in our Nashville Hot Honey sauce. Served with pickles, colby jack cheese,
+                      a large side of fries with ranch this meal is a crowd favorite!
+                    </p>
+                    <div class="text-end">
+                      <a href="/onlineOrdering.html" class="btn btn-outline-primary">Order Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-6">
+                <div class="card">
+                  <img src="/images.src/Chicken-Bacon-Ranch-Sandwich.jpg" class="card-img-top img-fit" alt="Chicken Bacon Ranch Sandwich">
+                  <div class="card-body">
+                    <h5 class="card-title">Chicken Bacon Ranch Sandwich</h5>
+                    <p class="card-text">
+                      Served on a fresh brioche bun, this chicken sandwich comes with locally sourced bacon and house ranch. This tasty 
+                      sandwich is garnished with cilantro and served with fries.
+                    </p>
+                    <div class="text-end">
+                      <a href="/onlineOrdering.html" class="btn btn-outline-primary">Order Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 3 -->
+        <div class="carousel-item" id="drinksCarousel">
+          <div class="container">
+            <div class="row g-3">
+              <div class="col-sm-4 col-6">
+                <div class="card">
+                    <img src="/images.src/strawberry-margarita-8.jpg" class="card-img-top img-fit" alt="Strawberry Margarita">
+                    <div class="card-body">
+                        <h5 class="card-title">Game Day Margarita</h5>
+                        <p class="card-text">
+                            This drink is a Game Day Grill signature margarita. Here at Game Day
+                            we take the simple flavor of a strawberry and enhance it to have a spicy and 
+                            sweet taste.
+                        </p> 
+                        <div class="text-end">
+                            <a href="/onlineOrdering.html" class="btn btn-outline-primary">Order Now</a>
+                        </div>                 
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-6">
+                <div class="card">
+                  <img src="/images.src/Blue-Lagoon-Mocktail-Two-Drinks-with-Straws-2-Web.jpg" class="card-img-top img-fit" alt="Blue Lagoon Mocktail">
+                  <div class="card-body">
+                    <h5 class="card-title">Blue Lagoon Mocktail</h5>
+                    <p class="card-text">
+                      Game Day Grill is meant for family fun! When you stop in today make sure to 
+                      order your little one a fun mocktail to go along with their meal.
+                    </p>
+                    <div class="text-end">
+                      <a href="/onlineOrdering.html" class="btn btn-outline-primary">Order Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-6">
+                <div class="card">
+                  <img src="/images.src/iced tea.jpg" class="card-img-top img-fit" alt="Iced Tea">
+                  <div class="card-body">
+                    <h5 class="card-title">Iced Tea</h5>
+                    <p class="card-text">
+                      When watching the game on any one of our 46 TVs, a refreshing glass of iced tea is the way to go. Our iced tea is made
+                      fresh to order so be sure to try a glass.
+                    </p>
+                    <div class="text-end">
+                      <a href="/onlineOrdering.html" class="btn btn-outline-primary">Order Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#cardCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+      <a class="carousel-control-next" href="#cardCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+    </div>
+    
+    <script>
+        function showElement(elementId) {
+          hideAllCarouselItems();
+          
+          document.getElementById(elementId).classList.add('active');
+        }
+      
+        function hideAllCarouselItems() {
+          var carouselItems = document.querySelectorAll('.carousel-item');
+          carouselItems.forEach(function(item) {
+            item.classList.remove('active');
+          });
+        }
+    </script>
+
+    
+    <!-- Upcoming Events -->
+    <div class="container mx-auto upcomingEvents">
+        <div class="row">
+          <div class="col-md-8">
+            <h2 class="events upEvents">Upcoming Event Nights</h2>
+            <p>
+                Get ready for epic nights of sports, fun, and camaraderie! 
+                At Game Day Grill, we go beyond the ordinary by hosting thrilling event nights that turn every game 
+                into a celebration. From themed nights to exclusive game screenings, we've got an electrifying lineup
+                that will keep you on the edge of your seat. At Game Day Grill, we redefine the sports viewing experience! 
+                With a whopping 46 state-of-the-art TVs strategically placed throughout our venue, you won't miss a single 
+                moment of the action. Immerse yourself in the excitement of your favorite sports, and cheer for your team in 
+                unparalleled clarity and vibrant colors.
+            </p>
+          </div>
+      
+          <div class="col-md-4 d-flex align-items-center">
+            <img src="/images.src/nflfootball.jpg" class="img-fluid" alt="NFL Football">
+          </div>
+        </div>
+      </div>
+
+      
+
+
+    <!-- Cards -->
+    <p class="extraCards">The Latest News</p>
+    <div class="container floats">
+        <div class="row g-3">
+            <div class="col-md-4 col-6">
+                <div class="card mt-4">
+                    <img src="/images.src/Asset 11@4x.png" class="card-img-top img-fit" alt="Game Day Grill Logo">
+                    <div class="card-body">
+                        <h5 class="card-title">Get The App</h5>
+                        <p class="card-text">
+                            Game Day Grill has just recently launched its app, which is available on IOS and Android.
+                            Download the App to order ahead and join our loyalty program. Our loyalty program includes
+                            points that go towards free items, and a free entre on your birthday!
+                        </p>
+                        <div class="text-end">
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-6">
+                <div class="card mt-4">
+                    <img src="/images.src/work-in-a-restaurant-what-to-expect.jpg" class="card-img-top img-fit" alt="Waiter Serving Food">
+                    <div class="card-body">
+                        <h5 class="card-title">Join the Team</h5>
+                        <p class="card-text">
+                            As a small business, we are always looking to hire people in our community to join our
+                            team. We offer an amazing staff environment in addition to great pay. If you're
+                            hard-working, motivated, and have a love for sports, please fill out the application below!
+                        </p>
+                        <div class="text-end">
+                            <a href="#" class="btn btn-outline-primary">Careers</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-6">
+                <div class="card mt-4">
+                    <img src="/images.src/burger.jpg" class="card-img-top img-fit" alt="Burger">
+                    <div class="card-body">
+                        <h5 class="card-title">Order Now</h5>
+                        <p class="card-text">
+                            With amazing specials, Game Day Grill is the obvious choice for your Game Day meals. We
+                            offer delicious appetizers, mouth-watering burgers, and so much more. Stop in today or
+                            order online for pickup by clicking the button below.
+                        </p>
+                        <div class="text-end">
+                            <a href="#" class="btn btn-outline-primary">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Mission Area -->
+    <div class="container ourMission">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="/images.src/mission.jpg" class="img-fluid" alt="People in a Field farming">
+          </div>
+      
+          <div class="col-md-8">
+            <h2 class="mission">Our Mission</h2>
+            <p>
+                Here at Game Day Grill, our mission is to
+                provide you with a dining experience that goes beyond great flavors. 
+                We are committed to using locally grown ingredients for all of our menu items, as we 
+                believe that fresh is best. Supporting local farmers and businesses is not just a choice
+                for us; it's a way of contributing to the community and ensuring the highest quality in 
+                every dish we serve. In our journey towards locally sourced ingredients, 
+                we are proud to announce our commitment to becoming carbon neutral by the year 2027. 
+                We understand the importance of sustainability and are actively taking steps to minimize our environmental impact. 
+                By 2027, we aim to offset our carbon footprint, contributing to a healthier planet for current and future generations.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    <div class="container footer">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Quick Links</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="/onlineOrdering.html" class="nav-link p-0 text-body-secondary text-start">Online Ordering</a></li>
+                <li class="nav-item mb-2"><a href="/contact.html" class="nav-link p-0 text-body-secondary text-start">Contact</a></li>
+                <li class="nav-item mb-2"><a href="/specialEvent.html" class="nav-link p-0 text-body-secondary text-start">Special Event Listing</a></li>
+                <li class="nav-item mb-2"><a href="/menu.html" class="nav-link p-0 text-body-secondary text-start">Menu</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Locations</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Toledo</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Chicago</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Dallas</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Malibu</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Ann Arbor</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Hours</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Monday-Thursday 11:30am-10pm</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Friday 11:30am-11pm</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Saturday 9am-11pm</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Sunday 11am-8pm</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form id="newsletterForm">
+                  <h5>Subscribe to our newsletter</h5>
+                  <p>Get exclusive offers and promotions from us!</p>
+                  <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                      <button id="subscribeButton" class="btn btn-primary text-bg-danger" type="button" onclick="subscribe()">Subscribe</button>
+                  </div>
+              </form>
+            </div>
+          
+          <script>
+              function subscribe() {
+                  var email = document.getElementById("newsletter1").value;
+          
+                  if (isValidEmail(email)) {
+                      document.getElementById("subscribeButton").style.backgroundColor = "#5c0000";
+                      clearForm();
+                      setTimeout(function () {
+                          document.getElementById("subscribeButton").style.backgroundColor = ""; 
+                      }, 3000);
+                  } else {
+                      alert("Invalid email address, please enter a valid email.");
+                  }
+              }
+          
+              function clearForm() {
+                  document.getElementById("newsletterForm").reset();
+              }
+          
+              function isValidEmail(email) {
+                  var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                  return emailRegex.test(email);
+              }
+          </script>
+          </div>
+    
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2023 Game Day Grill, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use
+                    xlink:href="#twitter"></use></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use
+                    xlink:href="#instagram"></use></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use
+                    xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    
+    
+
+</body>
+
+</html>
