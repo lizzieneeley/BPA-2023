@@ -1,3 +1,21 @@
+.menuBody {
+    
+}
+
+.small{
+    font-size: xx-small;
+}
+
+table{
+    text-align: center;
+}
+
+.textLeft {
+    text-align: left;
+}
+.textRight {
+    text-align: right;
+}
 /* card styling */
 .card .img-fit {
     object-fit: cover;
