@@ -102,14 +102,14 @@
           if (firstName && lastName && email && phone && message) {
               document.getElementById("submitButton").classList.remove("btn-secondary");
               document.getElementById("submitButton").classList.add("btn-primary");
-              clearForm();
+              clearForm2();
   
           } else {
               alert("Please fill in all fields.");
           }
       }
       
-      function clearForm() {
+      function clearForm2() {
           document.getElementById("contactForm").reset();
           document.getElementById("submitButton").classList.remove("btn-primary");
           document.getElementById("submitButton").classList.add("btn-secondary");
@@ -213,6 +213,7 @@
                   var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
                   return emailRegex.test(email);
               }
+              
           </script>
           </div>
     
