@@ -389,6 +389,10 @@ p {
     color:#000000
 }
 
+#background-footer{
+    background-color: #5c0000;
+}
+
 /*special event*/
 
 .responsive-iframe {
