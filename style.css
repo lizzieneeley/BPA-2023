@@ -386,7 +386,11 @@ p {
     }
 
 #noHover{
-    color:#000000
+    color:#000000;
+}
+
+#background-footer{
+    background-color: #5c0000;
 }
 
 /*special event*/
@@ -401,6 +405,3 @@ div.hover:hover{
     background-color: lightgray;
 }
 
-.menuTop{
-    text-align: center;
-}
