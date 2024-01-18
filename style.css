@@ -386,7 +386,7 @@ p {
     }
 
 #noHover{
-    color:#000000
+    color:#000000;
 }
 
 #background-footer{
@@ -402,3 +402,15 @@ p {
     height: 100%;
   }
 
+.footerr{
+    background-color: #882c2c;
+    color: #e7e7e7;
+}
+
+.footerHead{
+    color:#e7e7e7;
+}
+
+.linked{
+    color:#e1e1e1;
+}
