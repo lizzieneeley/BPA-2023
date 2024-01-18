@@ -397,4 +397,10 @@ p {
     width: 100%;
     height: 100%;
   }
+div.hover:hover{
+    background-color: lightgray;
+}
 
+.menuTop{
+    text-align: center;
+}
