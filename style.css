@@ -414,3 +414,10 @@ p {
 .linked{
     color:#e1e1e1;
 }
+.reservationText {
+    margin-top: 3%;
+}
+
+.belowText {
+    margin-bottom: 3%;
+}
