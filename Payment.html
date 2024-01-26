@@ -77,28 +77,34 @@
 
         <div id="thank-you">
             Thank you for your payment!
+            <button onclick="goToIndex()">Go back to Home!</button>
         </div>
-    </div>
-
-    <script>
-        function submitForm(event) {
-            event.preventDefault();
-
-            // Basic form validation (you may want to enhance this)
-            const cardNumber = document.getElementById('cardNumber').value;
-            const expiryDate = document.getElementById('expiryDate').value;
-            const cvv = document.getElementById('cvv').value;
-            const cardName = document.getElementById('cardName').value;
-
-            if (!cardNumber || !expiryDate || !cvv || !cardName) {
-                alert('Please fill in all fields.');
-                return;
+        
+        <script>
+            function submitForm(event) {
+                event.preventDefault();
+        
+                // Basic form validation (you may want to enhance this)
+                const cardNumber = document.getElementById('cardNumber').value;
+                const expiryDate = document.getElementById('expiryDate').value;
+                const cvv = document.getElementById('cvv').value;
+                const cardName = document.getElementById('cardName').value;
+        
+                if (!cardNumber || !expiryDate || !cvv || !cardName) {
+                    alert('Please fill in all fields.');
+                    return;
+                }
+        
+                // Display thank you message
+                document.getElementById('paymentForm').style.display = 'none';
+                document.getElementById('thank-you').style.display = 'block';
             }
-
-            // Display thank you message
-            document.getElementById('payment-form').style.display = 'none';
-            document.getElementById('thank-you').style.display = 'block';
-        }
-    </script>
+        
+            function goToIndex() {
+                window.location.href = "index.html";
+            }
+        </script>
+    
+    
 </body>
 </html>
