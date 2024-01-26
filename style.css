@@ -421,3 +421,20 @@ button:hover {
   padding: 10px 24px;
   transition-duration: 0.5s ;
 }
+
+.cart {
+    font-size: 50px;
+    text-align: center;
+}
+
+#shopping-cart {
+    text-align: center;
+    font-size: larger;
+    text-decoration: none;
+}
+
+#cart-items button {
+    font-size: 0.8em;
+    padding: 0.2em 0.5em;
+    margin: 1%;
+}
