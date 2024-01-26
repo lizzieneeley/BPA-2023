@@ -399,8 +399,11 @@ p {
     padding-bottom: 3em;
 }
 
-button {
-  transition-duration: 0.4s;
+.btn-1 {
+  background-color: #f44336;
+  color: white;
+  border-radius: 4px;
+  padding: 10px 24px;
 }
 
 button:hover {
