@@ -399,11 +399,11 @@ p {
     padding-bottom: 3em;
 }
 
-.button {
+button {
   transition-duration: 0.4s;
 }
 
-.button:hover {
+button:hover {
   background-color: #04AA6D; /* Green */
   color: white;
 }
