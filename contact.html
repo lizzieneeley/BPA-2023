@@ -80,7 +80,56 @@
 </div>
 <br>
 <br>
- 
+ <div class="container mx-auto message">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2 class="contactUs">Send Us A Message! <hr>
+            </h2>
+        </div>
+        <div class="col-md-8 mx-auto">
+            <p class="actualMessage">
+              We love hearing from our guests. Leave us a message below for general inquiries and we'll be in touch as soon as possible! Please click here if you are
+              providing feedback about a recent dining experience.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="row" id="contact">
+    <div class="col-md-4 contact-card text-center">
+        <h4>Address</h4>
+        <p>425 Jefferson Ave, Toledo, OH 43604</p>
+    </div>
+    
+    <div class="col-md-3 contact-card text-center">
+        <h4>Phone Number</h4>
+        <p>567-861-3945</p>
+    </div>
+    
+
+    <div class="col-md-4 contact-card text-center">
+        <h4>Email</h4>
+        <a href="mailto:someone@example.com">contact@gamedaygrill.com</a>
+    </div>
+</div>
+
+<hr>
+
+<div id="content" class="row">
+    <div class="col-md-4">
+      <div class="div2">
+          <form id="contactForm">
+              <h3 class="contact-desc">First name<span class="asterik">*</span></h3><input type="text" id="firstName">
+              <h3 class="contact-desc">Last Name<span class="asterik">*</span></h3><input type="text" id="lastName">
+              <h3 class="contact-desc">Email<span class="asterik">*</span></h3><input type="text" id="email">
+              <h3 class="contact-desc">Phone<span class="asterik">*</span></h3><input type="text" id="phone">
+              <h3 class="contact-desc">Message<span class="asterik">*</span></h3><input type="text" id="zipCode">
+              <br>
+              <br>
+              <button type="button" id="submitButton" class="btn btn-secondary" onclick="submitForm()">Submit</button>
+          </form>
+      </div>
+  </div>
 
   
   <script>
