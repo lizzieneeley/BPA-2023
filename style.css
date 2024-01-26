@@ -398,4 +398,13 @@ p {
     padding-top: 3em;
     padding-bottom: 3em;
 }
-        
+
+.coolbutton {
+  transition-duration: 0.4s;
+}
+
+.coolbutton:hover {
+  background-color: #04AA6D; /* Green */
+  color: white;
+border-radius: 4px;
+}
