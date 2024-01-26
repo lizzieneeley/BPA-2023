@@ -24,6 +24,30 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="style.css">
+        <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+    }
+
+    .half {
+      box-sizing: border-box;
+      flex: 1;
+      min-width: 0; /* Ensure flex items can shrink past their content */
+      overflow: hidden;
+      padding: 20px;
+    }
+
+    #left-half {
+      background-color: #e0e0e0; /* Adjust the color as needed */
+    }
+
+    #right-half {
+      background-color: #f0f0f0; /* Adjust the color as needed */
+    }
+  </style>
     </head>
     <body>
       <!-- Navbar -->
@@ -39,7 +63,6 @@
                   aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
               </button>
-              <meta name="viewport" content="width=device-width, initial-scale=1.0">
           </div>
 
           <div class="collapse navbar-collapse" id="toggleMobileMenu">
