@@ -399,3 +399,10 @@ p {
     padding-bottom: 3em;
 }
         
+.foods {
+    font-size: 40px;
+}
+
+.itemSets {
+    margin-bottom: 4%;
+}
