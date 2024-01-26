@@ -438,3 +438,8 @@ button:hover {
     padding: 0.2em 0.5em;
     margin: 1%;
 }
+
+
+.smaller {
+    width: 75%;
+}
