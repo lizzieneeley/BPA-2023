@@ -139,7 +139,15 @@ table{
     justify-content: center !important;
 }
 
+nav {
+    position:fixed;
+}
 
+.nav {
+    position: sticky;
+   position: -webkit-sticky;
+   top: 0;
+}
 
 a.brandName{
     text-decoration: none;
@@ -151,6 +159,28 @@ a.brandName{
     text-decoration: none;
 }
 
+.navbar {
+    background-color: #882c2c;
+    padding: 1% 0;
+    font-size: 1.2em;
+    z-index: 9999;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-toggler-icon {
+    color: rgb(255, 255, 255); 
+    border: 1px solid white;
+    border-color: aliceblue;
+}
+
+.navbar-nav .nav-link:hover {
+    font-size: medium;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
 .activeA {
     text-shadow: 2px 2px 4px#000000;
 }
@@ -179,15 +209,6 @@ html, body {
     width: 100%;
 }
 
-.navbar {
-    background-color: #882c2c;
-    padding: 1% 0;
-    font-size: 1.2em;
-}
-
-.navbar-nav .nav-link {
-    color: rgb(255, 255, 255);
-}
 
 
 #home {
@@ -197,20 +218,11 @@ html, body {
     position: relative;
     width: 100%;
     background-size: cover;
-    opacity:.87;
+    opacity: .87;
+    z-index: 1; /* Ensure the landing image stays below the navigation bar */
 }
 
-.navbar-toggler-icon {
-    color: rgb(255, 255, 255); 
-    border: 1px solid white;
-    border-color: aliceblue;
-}
 
-.navbar-nav .nav-link:hover {
-    font-size: medium;
-    text-shadow: 2px 2px 4px #000000;
-    
-}
 
 /* landing page and image styling */
 .landing-text {
