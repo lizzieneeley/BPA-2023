@@ -52,7 +52,7 @@ body {
     font-family: 'Nanum Gothic';
     border-radius: 4px;
     cursor: pointer;
-    padding-left: 5px;
+    padding-left: px;
   }
   
   button:hover {
@@ -62,4 +62,13 @@ body {
   .reservationinfo{
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .centered{
+    align-items: center;
+    padding-right: 5px;
+  }
+
+  .bookbutton{
+    text-align: center;
   }
