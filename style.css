@@ -1,4 +1,6 @@
-
+.BackgroundDark{
+    background-color: #232323;
+}
 
 table{
     text-align: center;
@@ -16,17 +18,25 @@ table{
     height: 100%;
     border-color: rgb(157, 157, 157);
     margin-left: 20px;
-    box-shadow:  0px 2px 4px #636363;
+    box-shadow:  0px 2px 4px #5c0000;
 }
 
 .card-body{
     display: flex;
     height: 100%;
     flex-direction: column;
+    background-color:rgba(106,106,106,10);
+    background-image: linear-gradient(180deg, #313131, #525252);
+    
+}
+
+.card-title{
+    color: #a2230d;
 }
 
 .card-text {
     flex-grow: 1;
+    color: #e1e1e1;
 }
 
 .selling{
@@ -36,17 +46,24 @@ table{
 }
 
 .extraCards{
-    font-family: 'DM Serif Display', serif;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
     font-size:xxx-large;
     margin-top: 17px;
     text-align: center;
-    color:#391919
+    color:#ab1a0f;
 }
 
 .ourMission {
     background-color: #5c0000;
     padding: 2%;
     color:#fff
+}
+
+.ourMission h2 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 300%;
 }
 
 .upcomingEvents {
@@ -72,7 +89,7 @@ table{
 .selling a:link {
     font-family: "Kanit", sans-serif;
     font-weight: 400;
-    color: rgb(187, 104, 104);
+    color: #bf1d11;
     text-decoration: none;
 }
 
@@ -81,7 +98,7 @@ table{
 }
 
 .selling a:hover {
-    color:#8a4040; 
+    color:#88140c; 
     font-size: ;
 }
 
@@ -98,13 +115,14 @@ table{
 .btn-outline-primary {
     border-color: #5c0000;
     color: #5c0000; /* Optional: Change text color on hover */
-  }
+    font-weight: 600;
+}
 
 .btn-outline-primary:hover {
     background-color: #5c0000;
     border-color: #5c0000;
     color: #fff; /* Optional: Change text color on hover */
-  }
+}
 
 
 
@@ -153,7 +171,6 @@ html, body {
 .landing-text h1 {
     font-family: "Kanit", sans-serif;
     font-weight: 500;
-    font-style: ;
     font-size:600%;
     padding-bottom: 20px;
     color: white;
@@ -253,8 +270,9 @@ a.p-0:hover {
 }
 
 .upEvents {
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: xxx-large;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 300%;
     margin-top: 3%;
 }
 
@@ -317,7 +335,7 @@ p {
     }
 
 #noHover{
-    color:#000000;
+    color:#e1e1e1;
 }
 
 #background-footer{
@@ -375,3 +393,12 @@ button:hover {
 .smaller {
     width: 75%;
 }
+
+.footer{
+    color: #ab1a0f;
+}
+
+#quickLink{
+    color:#e1e1e1;
+}
+

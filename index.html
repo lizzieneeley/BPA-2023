@@ -8,8 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Afacad&family=Chakra+Petch:wght@600&family=Yantramanav:wght@300&display=swap&family=Nanum+Gothic&family=DM+Mono&family=DM+Serif+Display&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Almarai:wght@300;400;700;800&family=Arya:wght@400;700&family=Bebas+Neue&family=Fredoka:wght@300..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kumbh+Sans:wght@100..900&family=Mina:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Almarai:wght@300;400;700;800&family=Arya:wght@400;700&family=Bebas+Neue&family=Fredoka:wght@300..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kumbh+Sans:wght@100..900&family=Mina:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
@@ -34,7 +35,7 @@
 
 </head>
 
-<body>
+<body class = " BackgroundDark">
 
     <!-- Navbar -->
     <nav class="navbar navbar-inverse">
@@ -265,7 +266,6 @@
           });
         }
     </script>
-
     
     <!-- Upcoming Events -->
     <div class="container mx-auto upcomingEvents">
@@ -381,20 +381,20 @@
             <div class="col-6 col-md-2 mb-3" >
               <h5 class="footerHead">Quick Links</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="/contact.html" class="nav-link p-0 text-body-secondary text-start">Contact</a></li>
-                <li class="nav-item mb-2"><a href="/specialEvent.html" class="nav-link p-0 text-body-secondary text-start">Special Event Listing</a></li>
-                <li class="nav-item mb-2"><a href="/menu.html" class="nav-link p-0 text-body-secondary text-start">Menu</a></li>
+                <li class="nav-item mb-2"><a id="quickLink" href="/contact.html" class="nav-link p-0 text-body-secondary text-start">Contact</a></li>
+                <li class="nav-item mb-2"><a id="quickLink" href="/specialEvent.html" class="nav-link p-0 text-body-secondary text-start">Special Event Listing</a></li>
+                <li class="nav-item mb-2"><a id="quickLink" href="/menu.html" class="nav-link p-0 text-body-secondary text-start">Menu</a></li>
               </ul>
             </div>
     
             <div class="col-6 col-md-2 mb-3">
               <h5 class="footerHead">Locations</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Toledo</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Chicago</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Dallas</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Malibu</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Ann Arbor</a></li>
+                <li class="nav-item mb-2"><a id="quickLink" href="#" class="nav-link p-0 text-body-secondary text-start">Toledo</a></li>
+                <li class="nav-item mb-2"><a id="quickLink" href="#" class="nav-link p-0 text-body-secondary text-start">Chicago</a></li>
+                <li class="nav-item mb-2"><a id="quickLink" href="#" class="nav-link p-0 text-body-secondary text-start">Dallas</a></li>
+                <li class="nav-item mb-2"><a id="quickLink" href="#" class="nav-link p-0 text-body-secondary text-start">Malibu</a></li>
+                <li class="nav-item mb-2"><a id="quickLink" href="#" class="nav-link p-0 text-body-secondary text-start">Ann Arbor</a></li>
               </ul>
             </div>
     
@@ -411,7 +411,7 @@
             <div class="col-md-5 offset-md-1 mb-3">
               <form id="newsletterForm">
                   <h5 class="footerHead">Subscribe to our newsletter</h5>
-                  <p class="footerHead">Get exclusive offers and promotions from us!</p>
+                  <p class="footerHead" id="quickLink">Get exclusive offers and promotions from us!</p>
                   <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                       <label for="newsletter1" class="visually-hidden">Email address</label>
                       <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
