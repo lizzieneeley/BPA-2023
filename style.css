@@ -79,11 +79,15 @@ table{
 
 .contactUs {
     font-size: xxx-large;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
 }
 
 .actualMessage {
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
+    font-family: "Kanit", sans-serif;
+    color:#7a7a7a
 }
 
 .selling a:link {
@@ -350,6 +354,8 @@ p {
         
 .foods {
     font-size: 40px;
+    color:#e1e1e1;
+    font-family: "Kanit", sans-serif;
 }
 
 .itemSets {
@@ -398,7 +404,15 @@ button:hover {
     color: #ab1a0f;
 }
 
-#quickLink{
+.lightLinks{
     color:#e1e1e1;
 }
 
+.lightLinks:hover{
+    color:#a94444;
+}
+
+#contact{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+}
