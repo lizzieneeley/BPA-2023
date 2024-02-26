@@ -95,3 +95,17 @@ body {
   .sub-text{
     color: #e1e1e1;
   }
+  
+.heroText {
+    color: white;
+    
+}
+
+.heroText a:visited {
+    color: white;
+}
+
+.logo {
+    width: 5%;
+    margin-right:1%;
+}

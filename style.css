@@ -16,9 +16,9 @@ table{
 
 .card { 
     height: 100%;
-    border-color: rgb(157, 157, 157);
+    border-color: #232323;
     margin-left: 20px;
-    box-shadow:  0px 2px 4px #5c0000;
+    box-shadow:  0px 2px 4px #232323;
 }
 
 .card-body{
@@ -26,12 +26,12 @@ table{
     height: 100%;
     flex-direction: column;
     background-color:rgba(106,106,106,10);
-    background-image: linear-gradient(180deg, #313131, #525252);
+    background-image: linear-gradient(180deg, #232323, #232323);
     
 }
 
 .card-title{
-    color: #a2230d;
+    color: #ffffff;
 }
 
 .card-text {
@@ -93,17 +93,16 @@ table{
 .selling a:link {
     font-family: "Kanit", sans-serif;
     font-weight: 400;
-    color: #bf1d11;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .selling a:visited {
-    color: black; 
+    color: rgb(255, 255, 255); 
 }
 
 .selling a:hover {
     color:#88140c; 
-    font-size: ;
 }
 
 .selling a:active {
@@ -120,12 +119,13 @@ table{
     border-color: #5c0000;
     color: #5c0000; /* Optional: Change text color on hover */
     font-weight: 600;
+    background-color: white;
 }
 
 .btn-outline-primary:hover {
     background-color: #5c0000;
     border-color: #5c0000;
-    color: #fff; /* Optional: Change text color on hover */
+    color: #ffffff; /* Optional: Change text color on hover */
 }
 
 
@@ -416,3 +416,38 @@ button:hover {
     font-family: "Kanit", sans-serif;
     font-weight: 400;
 }
+
+.heroText {
+    color: white;
+    
+}
+
+.heroText a:visited {
+    color: white;
+}
+
+.logo {
+    width: 5%;
+    margin-right:1%;
+}
+
+.cartBox {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: rgba(0, 0, 0, 0.8);
+    z-index:99999;
+}
+
+.cartBox .realCart{
+    position: relative;
+    height: 50%;
+    width: 80%;
+    background: ;
+}
+
