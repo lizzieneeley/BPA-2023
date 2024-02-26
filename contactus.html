@@ -24,6 +24,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="contactus.css">
       <title>Contact Us</title>
     <link rel="icon" type="image/x-icon" href="https://gamedaygrillrestaurant.netlify.app/images.src/Asset%2011@4x.png">
     </head>
@@ -58,6 +59,7 @@
               <li class="nav-item mx-auto p-2 heroText"><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABDElEQVR4nO2WzQ2CQBCFPeFBgtahNqEXNJahTfhzIMZoE1iFHrAQLEChACp4BjMmHGaHQVgP6pdwevv4smSZbKv15ycBMAOQoD53ANMq4rzQFDet1GPKSwAdACtBIK3xNOI+U+xR1hbEDq1xmayvEftMcVfIWQr5lol9jXhR8uIyMcdcIw4MZZfylMkS4XzkBBpxaCiPKD8w2Z6ysaEbasSRoXyi3CF5Sv/6vnCwzoZupBHHMLMWehuhF2vEmfCC587pk7r0jIWdvsjKpF3Yw5PEQ4vigSSeWBT7lYdHQ8zfGR5NEEjio0VxKIkvFsWRJL5aFMd1hkcdsk9defRXIABTS/JbPiOM4j9fyQObKk1UPeDdzAAAAABJRU5ErkJggg=="></a></li>
             </ul>
             
+            
           </div>
         </div>
       </nav>
@@ -77,20 +79,32 @@
     </div>
 </div>
 
+<div class="theform">
 <form action="/action_page.php">
-    <select name="feedback" id="feedbacks">
-        <option value="volvo">Volvo</option>
-        <option value="saab">Saab</option>
-        <option value="mercedes">Mercedes</option>
-        <option value="audi">Audi</option>
+  
+    <select required ="feedback" id="feedbacks">
+        <option value="topic">Please Select a Topic</option>
+        <option value="store">Store Visit Feedback</option>
+        <option value="mobile">Mobile App Question</option>
+        <option value="product">Product Feedback</option>
+        <option value="other">Other</option>
       </select>
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" value="John"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <br>
+    
+    <input type="text" id="fname" name="fname" placeholder="First Name">
+    
+    <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+    
+    <input type="text" id="email" name="email" placeholder="Email Address">
+    <br>
+    <input type="text" id="subject" name="subject" placeholder="Subject">
+    <br>
+    <input type="text" id="address" name="address" placeholder="Location Address">
+  <br>
     <input type="submit" value="Submit">
-  </form>
 
+  </form>
+  </div>
   
   <script>
       function submitForm() {
