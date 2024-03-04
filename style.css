@@ -1,71 +1,46 @@
-.BackgroundDark{
-    background-color: #232323;
+.menuBody {
+    
 }
-
 table{
     text-align: center;
     width: 100%;
 }
-
-
 /* card styling */
 .card .img-fit {
     object-fit: cover;
     aspect-ratio: 16 / 9;
 }
-
 .card { 
     height: 100%;
-    border-color: #232323;
+    border-color: rgb(157, 157, 157);
     margin-left: 20px;
-    box-shadow:  0px 2px 4px #232323;
+    box-shadow:  0px 2px 4px #636363;
 }
-
 .card-body{
     display: flex;
     height: 100%;
     flex-direction: column;
-    background-color:rgba(106,106,106,10);
-    background-image: linear-gradient(180deg, #232323, #232323);
-    
 }
-
-.card-title{
-    color: #ffffff;
-}
-
 .card-text {
     flex-grow: 1;
-    color: #e1e1e1;
 }
-
 .selling{
     font-family: 'DM Serif Display', serif;
     margin-top: 17px;
     text-align: center;
 }
-
 .extraCards{
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
+    font-family: 'DM Serif Display', serif;
     font-size:xxx-large;
     margin-top: 17px;
     text-align: center;
-    color:#ab1a0f;
+    color:#391919
 }
-
 .ourMission {
     background-color: #5c0000;
     padding: 2%;
     color:#fff
 }
-
-.ourMission h2 {
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-size: 300%;
-}
-
 .upcomingEvents {
     background-color: #5c0000;
     padding: 2%;
@@ -76,81 +51,97 @@ table{
     padding: 2%;
     margin: 2%;
 }
-
 .contactUs {
     font-size: xxx-large;
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
 }
-
 .actualMessage {
     text-align: center;
-    font-weight: 400;
-    font-family: "Kanit", sans-serif;
-    color:#7a7a7a
+    font-weight: 500;
 }
-
 .selling a:link {
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    color: #ffffff;
+    color: rgb(187, 104, 104);
     text-decoration: none;
 }
-
 .selling a:visited {
-    color: rgb(255, 255, 255); 
+    color: black; 
 }
-
 .selling a:hover {
-    color:#88140c; 
+    color:#8a4040; 
+    font-size: ;
 }
-
 .selling a:active {
     color:#5c0000; /* Color for active links (when clicked) */
 }
-
 .selling {
     margin-top: 2%;
 }
-
-
-
 .btn-outline-primary {
     border-color: #5c0000;
     color: #5c0000; /* Optional: Change text color on hover */
-    font-weight: 600;
-    background-color: white;
-}
-
+  }
 .btn-outline-primary:hover {
     background-color: #5c0000;
     border-color: #5c0000;
-    color: #ffffff; /* Optional: Change text color on hover */
-}
-
-
-
+    color: #fff; /* Optional: Change text color on hover */
+  }
 @media (max-width: 767.98px) {
     .card .img-fit {
         aspect-ratio: 1.45 / 1;
     }
 }
-
-
-
-
-
-
-
-
-
+/* nav bar styline */
+.logo {
+    width:40px;
+    min-height: 100px;
+    padding: 0 15px 5px;
+}
+.nav-link {
+    font-size:15px;
+    text-align:center;
+}
+.navbar-nav .nav-link {
+    margin-right: 25px;
+}
+.navbar-nav {
+    display: flex !important;
+    justify-content: center !important;
+}
+a.brandName{
+    text-decoration: none;
+}
+.navbar-brand {
+    font-size: 30px; 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.activeA {
+    text-shadow: 2px 2px 4px#000000;
+}
+.brandName{
+    font-size: 34px; 
+    color: white;
+    font-family: 'Afacad', sans-serif;
+    margin-left: 20px;
+}
+.brandName:hover{
+    color: #fff;
+    text-shadow: 2px 2px 4px black;
+}
+.active{
+    text-decoration: none;
+}
 html, body {
     height: 100%;
     width: 100%;
 }
-
-
-
+.navbar {
+    background-color: #882c2c;
+    padding: 1% 0;
+    font-size: 1.2em;
+}
+.navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
 #home {
     background: url(/images.src/Big\ Cheeseburge\ 3bc4b8cc-c2bd-450c-b5eb-756e667d1595.png) no-repeat center center fixed;
     display: table;
@@ -158,66 +149,59 @@ html, body {
     position: relative;
     width: 100%;
     background-size: cover;
-    opacity: .87;
-    z-index: 1; /* Ensure the landing image stays below the navigation bar */
+    opacity:.87;
 }
-
-
-
+.navbar-toggler-icon {
+    color: rgb(255, 255, 255); 
+    border: 1px solid white;
+    border-color: aliceblue;
+}
+.navbar-nav .nav-link:hover {
+    font-size: medium;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
 /* landing page and image styling */
 .landing-text {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
 }
-
-
 .landing-text h1 {
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
-    font-size:600%;
-    padding-bottom: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 650%;
+    font-weight: 700;
     color: white;
-    text-shadow: 4px 4px 6px black;
+    text-shadow: 2px 2px 4px black;
 }
-
 .landing-text h3 {
     color: white;
     text-shadow: 2px 2px 4px black;
 }
-
 #orderNow {
     color: rgb(0, 0, 0);
     border-color: white;
     background-color: white;
     box-shadow: 2px 2px 4px black;
 }
-
 #orderNow:hover {
     background-color: #5c0000; /* Change to the desired background color */
     color: white; /* Change to the desired font color */
 }
-
-
 #orderNow {
     transition: background-color 0.3s, color 0.3s;
 }
-
-
 .reservation {
     display: inline-flex;
     padding-left:110px;
 }
-
 h1{
     text-align:center;
 }
-
 .types{
     margin-left: 45px;
     margin-right: 45px;
 }
-
 .mission{
     margin-top:20px;
     margin-bottom: 30px;
@@ -226,7 +210,6 @@ h1{
     color:#e1e1e1;
     border-radius: 100px;
 }
-
 .img-fluid.mission-section {
     display: block;
     margin-left: auto;
@@ -239,56 +222,45 @@ h1{
     max-width: auto;
     max-height: 100%;
   }
-
 a.p-0 {
     color: black;
 }
   
-
 a.p-0:visited {
     color: black;
 }
-
 a.p-0:hover {
     color:#a94444;
 }
 .floats{
     margin-bottom: 45px;
 }
-
 .div2{
     margin-left: 5%;
 }
-
 .map-container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 4%;
 }
-
 .map {
     width: 100%;
     height: 100%;
     border: 0;
 }
-
 .upEvents {
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
-    font-size: 300%;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: xxx-large;
     margin-top: 3%;
 }
-
 .mission {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: xxx-large;
 }
-
 body {
     background-color: #f2f2f2;
 }
-
 p {
     font-family: 'Yantramanav', sans-serif;;
 }
@@ -306,22 +278,18 @@ p {
       margin-top: 20px;
       margin-left: 50px; /* Add top margin */
 }
-
 #submitButton {
     background-color: #5c0000;
 }
-
 #subscribeButton {
     background-color: rgb(0, 0, 0);
     border-color: #5c0000;
     border-width: 20%;
     color: #ffffff;
 }
-
 .asterik {
     color: #ff0303;
 }
-
 .map-container iframe {
     position: absolute;
     top: 0;
@@ -329,7 +297,6 @@ p {
     width: 100%;
     height: 100%;
 }
-
 .info-reservation {
       padding: 20px;
       margin-top: 20px; /* Add top margin */
@@ -337,16 +304,12 @@ p {
     .res{
       text-align:center;
     }
-
 #noHover{
-    color:#e1e1e1;
+    color:#000000;
 }
-
 #background-footer{
     background-color: #5c0000;
 }
-
-
 .everything{
     padding-top: 3em;
     padding-bottom: 3em;
@@ -354,22 +317,16 @@ p {
         
 .foods {
     font-size: 40px;
-    color:#e1e1e1;
-    font-family: "Kanit", sans-serif;
-    text-align: center;
 }
-
 .itemSets {
     margin-bottom: 4%;
 }
-
 button {
   background-color: #f44336;
   color: white;
   border-radius: 4px;
   padding: 10px 24px;
 }
-
 button:hover {
   background-color: #04AA6D; /* Green */
   color: white;
@@ -377,90 +334,17 @@ button:hover {
   padding: 10px 24px;
   transition-duration: 0.5s ;
 }
-
 .cart {
-    font-size: 25px;
+    font-size: 50px;
     text-align: center;
-    color: #ffffff;
 }
-
 #shopping-cart {
     text-align: center;
     font-size: larger;
     text-decoration: none;
-    color: #f2f2f2;
 }
-
 #cart-items button {
     font-size: 0.8em;
     padding: 0.2em 0.5em;
     margin: 1%;
-    color: white;
 }
-
-
-.smaller {
-    width: 75%;
-}
-
-.footer{
-    color: #ab1a0f;
-}
-
-.lightLinks{
-    color:#e1e1e1;
-}
-
-.lightLinks:hover{
-    color:#a94444;
-}
-
-#contact{
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-}
-
-.heroText {
-    color: white;
-    
-}
-
-.heroText a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-
-.heroText:hover{
-    color: #a10202;
-    text-shadow: black;
-}
-.logo {
-    width: 5%;
-    margin-right:1%;
-}
-
-.cartBox {
-    position: fixed; 
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-attachment: rgba(0, 0, 0, 0.8);
-    z-index:99999;
-}
-
-.cartBox .realCart{
-    position: relative;
-    height: 50%;
-    width: 80%;
-}
-
-.navbar-collapse .navbar-toggler {
-    color: white;
-    border: white;
-}
-
