@@ -1,0 +1,13 @@
+input[type="text"], select {
+    width: 800px;
+    padding: 10px;
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+}
+
+.theform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
