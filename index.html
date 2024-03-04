@@ -1,68 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- links to Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Afacad&family=Chakra+Petch:wght@600&family=Yantramanav:wght@300&display=swap&family=Nanum+Gothic&family=DM+Mono&family=DM+Serif+Display&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Almarai:wght@300;400;700;800&family=Arya:wght@400;700&family=Bebas+Neue&family=Fredoka:wght@300..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kumbh+Sans:wght@100..900&family=Mina:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
-    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
         crossorigin="anonymous">
-
     <!-- Bootstrap Icons CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <title>Game Day Grill</title>
-    <link rel="icon" type="image/x-icon" href="https://gamedaygrillrestaurant.netlify.app/images.src/Asset%2011@4x.png">
-
 </head>
-
-<body class = " BackgroundDark">
-
+<body>
     <!-- Navbar -->
-<<<<<<< HEAD
-    <nav class="navbar navbar-expand-md bg-body-tertiary">
-      <div class="container-fluid">
-        <img class="logo" src="/images.src/Asset 11@4x.png">
-        <a class="navbar-brand heroText" href="#">Game Day Grill</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active heroText" aria-current="page" href="/menu.html">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link heroText" href="/contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link heroText" href="/reservation.html">Reservation</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link heroText" href="/specialEvent.html">Special Events</a>
-            </li>
-          </ul>
-=======
     <nav class="navbar navbar-expand-sm" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -71,23 +30,30 @@
                         class="d-inline-block align-top" />
                 </a>
                 <a class="activeA brandName" href="/home.html">Game Day Grill</a>
+                <a class="activeA brandName" href="/index.html">Game Day Grill</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
                     aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
->>>>>>> parent of e6003e9 (homepage)
-
-          <ul class="navbar-nav">
-            <li class="nav-item mx-auto p-2 heroText"><a href="/menu.html" >Order Now</a></li>
-            <li class="nav-item mx-auto p-2 heroText"><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABDElEQVR4nO2WzQ2CQBCFPeFBgtahNqEXNJahTfhzIMZoE1iFHrAQLEChACp4BjMmHGaHQVgP6pdwevv4smSZbKv15ycBMAOQoD53ANMq4rzQFDet1GPKSwAdACtBIK3xNOI+U+xR1hbEDq1xmayvEftMcVfIWQr5lol9jXhR8uIyMcdcIw4MZZfylMkS4XzkBBpxaCiPKD8w2Z6ysaEbasSRoXyi3CF5Sv/6vnCwzoZupBHHMLMWehuhF2vEmfCC587pk7r0jIWdvsjKpF3Yw5PEQ4vigSSeWBT7lYdHQ8zfGR5NEEjio0VxKIkvFsWRJL5aFMd1hkcdsk9defRXIABTS/JbPiOM4j9fyQObKk1UPeDdzAAAAABJRU5ErkJggg=="></a></li>
-          </ul>
-          </ul>
-          
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li>
+                        <a class="nav-link mr-2" href="/menu.html">Menu</a>
+                    </li>
+                    <li>
+                        <a class="nav-link mr-2" href="/contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a class="nav-link mr-2" href="/reservation.html">Reservation</a>
+                    </li>
+                    <li>
+                        <a class="nav-link mr-2" href="/specialEvent.html">Special Events</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
-
     <!-- Landing Image Text -->
     <div id="home">
         <div class="landing-text">
@@ -97,7 +63,6 @@
         </div>
     </div>
     
-
     <!--Carousel-->
     <h1 class="selling">
         <span>
@@ -321,10 +286,7 @@
           </div>
         </div>
       </div>
-
       
-
-
     <!-- Cards -->
     <p class="extraCards">The Latest News</p>
     <div class="container floats">
@@ -345,7 +307,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-4 col-6">
                 <div class="card mt-4">
                     <img src="/images.src/Your-Server-Does-Not-Want-To-Hear-You-Talk-About-These-Things-FT-BLOG0623-9d0eb8bcd96f4b42b56b5aedfdc6cb85.webp" class="card-img-top img-fit" alt="Waiter Serving Food">
@@ -362,7 +323,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-4 col-6">
                 <div class="card mt-4">
                     <img src="/images.src/Big Cheeseburge 3bc4b8cc-c2bd-450c-b5eb-756e667d1595.png" class="card-img-top img-fit" alt="Burger">
@@ -381,7 +341,6 @@
             </div>
         </div>
     </div>
-
     <!-- Our Mission Area -->
     <div class="container ourMission">
         <div class="row">
@@ -414,20 +373,20 @@
             <div class="col-6 col-md-2 mb-3" >
               <h5 class="footerHead">Quick Links</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a class="lightLinks" href="/contact.html" class="nav-link p-0 text-body-secondary text-start">Contact</a></li>
-                <li class="nav-item mb-2"><a class="lightLinks" href="/specialEvent.html" class="nav-link p-0 text-body-secondary text-start">Special Event Listing</a></li>
-                <li class="nav-item mb-2"><a class="lightLinks" href="/menu.html" class="nav-link p-0 text-body-secondary text-start">Menu</a></li>
+                <li class="nav-item mb-2"><a href="/contact.html" class="nav-link p-0 text-body-secondary text-start">Contact</a></li>
+                <li class="nav-item mb-2"><a href="/specialEvent.html" class="nav-link p-0 text-body-secondary text-start">Special Event Listing</a></li>
+                <li class="nav-item mb-2"><a href="/menu.html" class="nav-link p-0 text-body-secondary text-start">Menu</a></li>
               </ul>
             </div>
     
             <div class="col-6 col-md-2 mb-3">
               <h5 class="footerHead">Locations</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a class="lightLinks" href="#" class="nav-link p-0 text-body-secondary text-start">Toledo</a></li>
-                <li class="nav-item mb-2"><a class="lightLinks" href="#" class="nav-link p-0 text-body-secondary text-start">Chicago</a></li>
-                <li class="nav-item mb-2"><a class="lightLinks" href="#" class="nav-link p-0 text-body-secondary text-start">Dallas</a></li>
-                <li class="nav-item mb-2"><a class="lightLinks" href="#" class="nav-link p-0 text-body-secondary text-start">Malibu</a></li>
-                <li class="nav-item mb-2"><a class="lightLinks" href="#" class="nav-link p-0 text-body-secondary text-start">Ann Arbor</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Toledo</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Chicago</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Dallas</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Malibu</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-start">Ann Arbor</a></li>
               </ul>
             </div>
     
@@ -444,7 +403,7 @@
             <div class="col-md-5 offset-md-1 mb-3">
               <form id="newsletterForm">
                   <h5 class="footerHead">Subscribe to our newsletter</h5>
-                  <p class="footerHead" id="quickLink">Get exclusive offers and promotions from us!</p>
+                  <p class="footerHead">Get exclusive offers and promotions from us!</p>
                   <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                       <label for="newsletter1" class="visually-hidden">Email address</label>
                       <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
@@ -478,12 +437,6 @@
                   var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
                   return emailRegex.test(email);
               }
-
-              document.querySelector('.navbar-toggler').addEventListener('click', function(){ 
-                if(this.getAttribute('aria-expanded')) { 
-                this.classList.toggle('bg-white');
-              };
-              });
           </script>
           </div>
     
@@ -502,7 +455,5 @@
       
     
     
-
 </body>
-
 </html>
