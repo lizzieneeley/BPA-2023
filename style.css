@@ -448,6 +448,10 @@ button:hover {
     position: relative;
     height: 50%;
     width: 80%;
-    background: ;
+}
+
+.navbar-collapse .navbar-toggler {
+    color: white;
+    border: white;
 }
 
