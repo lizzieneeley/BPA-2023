@@ -352,3 +352,8 @@ button:hover {
 .menuNav {
     background-color: #d0d0d0;
 }
+
+.eventText {
+    line-height: 300%;
+    font-size: 120%;
+}
