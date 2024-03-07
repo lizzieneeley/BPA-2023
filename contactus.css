@@ -11,3 +11,15 @@ input[type="text"], select {
     align-items: center;
     padding: 30px;
 }
+
+.contactUs {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    color: #000000;
+}
+
+.theform {
+    align-items: center;
+    margin-left: 50%;
+    margin-right: 50%;
+}
