@@ -348,3 +348,7 @@ button:hover {
     padding: 0.2em 0.5em;
     margin: 1%;
 }
+
+.menuNav {
+    background-color: #d0d0d0;
+}
