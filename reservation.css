@@ -13,7 +13,7 @@ body {
     display: inline-block;
     float: left;
     margin-left: 1%;
-    color: #e1e1e1;
+    color: #000000;
 
   }
   
@@ -22,7 +22,7 @@ body {
     font-family: 'Nanum Gothic';
     padding-bottom: 10px;
     font-size: 1.25em;
-    color: #e1e1e1;
+    color: #000000;
     
   }
   
@@ -62,14 +62,14 @@ body {
     font-family: 'Nanum Gothic';
     width: 100%;
     padding: 10px;
-    background-color: #3d3d3d;
-    color: #e1e1e1;
+    background-color: #ffffff;
+    color: #000000;
   }
   
   div.elem-group.inlined input {
     width: 95%;
     display: inline-block;
-    color: #e1e1e1;
+    color: #000000;
     
   }
   
@@ -121,7 +121,7 @@ body {
   .font{
     font-family: "Kanit", sans-serif;
     font-weight: 500;
-    color: #e1e1e1;
+    color: #000000;
   }
 
   .sub-text{
