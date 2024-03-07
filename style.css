@@ -357,3 +357,48 @@ button:hover {
     line-height: 300%;
     font-size: 120%;
 }
+
+
+.shop {
+    outline: 2px solid #000000; /* Set outline directly */
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+#shopping-cart {
+    border: 2px solid #000000; /* Set border directly */
+    padding: 10px;
+    border-radius: 50px;
+} 
+  #cart-total {
+    display: inline-block; /* Ensures it's centered */
+  }
+  
+  button {
+    margin-top: 10px; /* Adjust as needed */
+  }
+
+.cartCheck:hover {
+    background-color: rgb(255, 255, 255);
+    color: #5c0000;
+}
+
+.cartCheck {
+    background-color: #5c0000;
+    color: white;
+  }
+  
+  .cartCheck a {
+    color: inherit; 
+    text-decoration: none;
+  }
+  .outline {
+    outline: 2px solid #cecece;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  #sliders, #pizza, #wings, #tacos, #salad, #drinks, #sides {
+    text-align: center;
+    margin-top: 2%;
+  }

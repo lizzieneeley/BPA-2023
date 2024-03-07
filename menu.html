@@ -69,7 +69,7 @@
           </div>
       </div>
   </nav>
-
+  
     <body class="BackgroundDark">
         <div class="container-fluid">
             
@@ -109,11 +109,18 @@
             </nav>
         <br>
 
-
+      <section id="shopping-cart itemSets">
+        <div class="shop">
+          <h2 class="cart" id="shop-cart">Shopping Cart</h2>
+          <ul id="cart-items"></ul>
+          <p>Total: $<span id="cart-total">0.00</span></p>
+          <button onclick="checkout()" class="cartCheck"><a href="/Payment.html">Checkout</a> </button>
+      </div></section>
 
         <!--start of menu items-->
     <body>
         <header id="sliders" class="foods sliders">Burgers/Sandwiches</header>
+        <div class="outline">
             <div class="container itemSets sliders">
               <div class="row g-3">
                 <div class="col-sm-3 col-6">
@@ -242,7 +249,7 @@
                     </div>
                   </div>
               </div>
-            </div>
+            </div></div>
           </div>
       
         
@@ -250,7 +257,7 @@
         <br>
         
         <header id="pizza" class="foods pizza">Pizza</header>
-            <div class="container itemSets pizza">
+            <div class="outline"><div class="container itemSets pizza">
               <div class="row g-3">
                 <div class="col-sm-3 col-6">
                   <div class="card">
@@ -315,11 +322,11 @@
                   </div>
               </div>
             </div>
-          </div>
+          </div></div>
         <br>
 
         <header id="tacos" class="foods tacos">Tacos </header>
-            <div class="container itemSets tacos">
+            <div class="outline"><div class="container itemSets tacos">
               <div class="row g-3">
                 <div class="col-sm-3 col-6">
                   <div class="card">
@@ -385,11 +392,11 @@
                   </div>
               </div>
             </div>
-          </div>
+          </div></div>
         <br>
 
         <header id="wings" class="foods wings">Wings </header> <h4>- All Wings come with a side of fries, and your choice of dipping sauce</h4>
-        <div class="container itemSets wings">
+        <div class="outline"><div class="container itemSets wings">
           <div class="row g-3">
             <div class="col-sm-3 col-6">
               <div class="card">
@@ -454,12 +461,12 @@
               </div>
           </div>
         </div>
-      </div>
+      </div></div>
 
         <br>
 
         <header id="salad" class="foods salad">Salads </header>
-            <div class="container itemSets salad">
+            <div class="outline"><div class="container itemSets salad">
               <div class="row g-3">
                 <div class="col-sm-3 col-6">
                   <div class="card">
@@ -525,7 +532,7 @@
                   </div>
               </div>
             </div>
-          </div>
+          </div></div>
         <br>
 
         
@@ -533,7 +540,7 @@
         <br>
 
     <header id="sides" class="foods sides">Sides </header>
-        <div class="container itemSets sides">
+        <div class="outline"><div class="container itemSets sides">
           <div class="row g-3">
             <div class="col-sm-4 col-6">
               <div class="card">
@@ -628,12 +635,12 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div></div>
 
 
 
             <header id="drinks" class="foods drinks">Drinks </header>
-        <div class="container itemSets drinks">
+        <div class="outline"><div class="container itemSets drinks">
           <div class="row g-3">
             <div class="col-sm-4 col-6">
               <div class="card">
@@ -683,13 +690,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <section id="shopping-cart itemSets">
-                <h2 class="cart" id="shop-cart">Shopping Cart</h2>
-                <ul id="cart-items"></ul>
-                <p>Total: $<span id="cart-total">0.00</span></p>
-                <button onclick="checkout()"><a href="/Payment.html">Checkout</a> </button>
-            </section>
+            </div></div>
+            
         
             <script>
                document.addEventListener('DOMContentLoaded', function() {
